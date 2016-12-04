@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53351D091DF4080D0047A9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53351D081DF4080D0047A9BE /* AppDelegate.swift */; };
-		53351D0B1DF4080D0047A9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53351D0A1DF4080D0047A9BE /* ViewController.swift */; };
-		53351D0E1DF4080D0047A9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53351D0C1DF4080D0047A9BE /* Main.storyboard */; };
-		53351D101DF4080D0047A9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53351D0F1DF4080D0047A9BE /* Assets.xcassets */; };
-		53351D131DF4080D0047A9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53351D111DF4080D0047A9BE /* LaunchScreen.storyboard */; };
-		53351D1B1DF40FF50047A9BE /* ZDOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53351D1A1DF40FF50047A9BE /* ZDOneCell.swift */; };
+		53351D291DF41FDB0047A9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53351D1F1DF41FDB0047A9BE /* AppDelegate.swift */; };
+		53351D2A1DF41FDB0047A9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53351D201DF41FDB0047A9BE /* Assets.xcassets */; };
+		53351D2B1DF41FDB0047A9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53351D221DF41FDB0047A9BE /* LaunchScreen.storyboard */; };
+		53351D2C1DF41FDB0047A9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53351D241DF41FDB0047A9BE /* Main.storyboard */; };
+		53351D2D1DF41FDB0047A9BE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53351D261DF41FDB0047A9BE /* Info.plist */; };
+		53351D2E1DF41FDB0047A9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53351D271DF41FDB0047A9BE /* ViewController.swift */; };
+		53351D2F1DF41FDB0047A9BE /* ZDOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53351D281DF41FDB0047A9BE /* ZDOneCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		53351D051DF4080D0047A9BE /* UICollectionViewCell不销毁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionViewCell不销毁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53351D081DF4080D0047A9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53351D0A1DF4080D0047A9BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		53351D0D1DF4080D0047A9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53351D0F1DF4080D0047A9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		53351D121DF4080D0047A9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		53351D141DF4080D0047A9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53351D1A1DF40FF50047A9BE /* ZDOneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDOneCell.swift; sourceTree = "<group>"; };
+		53351D1E1DF41FDB0047A9BE /* UICollectionViewCell不销毁-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell不销毁-Bridging-Header.h"; sourceTree = "<group>"; };
+		53351D1F1DF41FDB0047A9BE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "UICollectionViewCell的重用/AppDelegate.swift"; sourceTree = "<group>"; };
+		53351D201DF41FDB0047A9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "UICollectionViewCell的重用/Assets.xcassets"; sourceTree = "<group>"; };
+		53351D231DF41FDB0047A9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53351D251DF41FDB0047A9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		53351D261DF41FDB0047A9BE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "UICollectionViewCell的重用/Info.plist"; sourceTree = "<group>"; };
+		53351D271DF41FDB0047A9BE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "UICollectionViewCell的重用/ViewController.swift"; sourceTree = "<group>"; };
+		53351D281DF41FDB0047A9BE /* ZDOneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZDOneCell.swift; path = "UICollectionViewCell的重用/ZDOneCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +42,14 @@
 		53351CFC1DF4080D0047A9BE = {
 			isa = PBXGroup;
 			children = (
-				53351D071DF4080D0047A9BE /* UICollectionViewCell不销毁 */,
+				53351D1F1DF41FDB0047A9BE /* AppDelegate.swift */,
+				53351D201DF41FDB0047A9BE /* Assets.xcassets */,
+				53351D211DF41FDB0047A9BE /* Base.lproj */,
+				53351D261DF41FDB0047A9BE /* Info.plist */,
+				53351D271DF41FDB0047A9BE /* ViewController.swift */,
+				53351D281DF41FDB0047A9BE /* ZDOneCell.swift */,
 				53351D061DF4080D0047A9BE /* Products */,
+				53351D1E1DF41FDB0047A9BE /* UICollectionViewCell不销毁-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,18 +61,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53351D071DF4080D0047A9BE /* UICollectionViewCell不销毁 */ = {
+		53351D211DF41FDB0047A9BE /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				53351D081DF4080D0047A9BE /* AppDelegate.swift */,
-				53351D0A1DF4080D0047A9BE /* ViewController.swift */,
-				53351D1A1DF40FF50047A9BE /* ZDOneCell.swift */,
-				53351D0C1DF4080D0047A9BE /* Main.storyboard */,
-				53351D0F1DF4080D0047A9BE /* Assets.xcassets */,
-				53351D111DF4080D0047A9BE /* LaunchScreen.storyboard */,
-				53351D141DF4080D0047A9BE /* Info.plist */,
+				53351D221DF41FDB0047A9BE /* LaunchScreen.storyboard */,
+				53351D241DF41FDB0047A9BE /* Main.storyboard */,
 			);
-			path = "UICollectionViewCell不销毁";
+			name = Base.lproj;
+			path = "UICollectionViewCell的重用/Base.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,11 +104,12 @@
 				TargetAttributes = {
 					53351D041DF4080D0047A9BE = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 53351D001DF4080D0047A9BE /* Build configuration list for PBXProject "UICollectionViewCell不销毁" */;
+			buildConfigurationList = 53351D001DF4080D0047A9BE /* Build configuration list for PBXProject "UICollectionViewCell的重用" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,9 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53351D131DF4080D0047A9BE /* LaunchScreen.storyboard in Resources */,
-				53351D101DF4080D0047A9BE /* Assets.xcassets in Resources */,
-				53351D0E1DF4080D0047A9BE /* Main.storyboard in Resources */,
+				53351D2D1DF41FDB0047A9BE /* Info.plist in Resources */,
+				53351D2C1DF41FDB0047A9BE /* Main.storyboard in Resources */,
+				53351D2A1DF41FDB0047A9BE /* Assets.xcassets in Resources */,
+				53351D2B1DF41FDB0047A9BE /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,29 +146,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53351D0B1DF4080D0047A9BE /* ViewController.swift in Sources */,
-				53351D1B1DF40FF50047A9BE /* ZDOneCell.swift in Sources */,
-				53351D091DF4080D0047A9BE /* AppDelegate.swift in Sources */,
+				53351D2E1DF41FDB0047A9BE /* ViewController.swift in Sources */,
+				53351D2F1DF41FDB0047A9BE /* ZDOneCell.swift in Sources */,
+				53351D291DF41FDB0047A9BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		53351D0C1DF4080D0047A9BE /* Main.storyboard */ = {
+		53351D221DF41FDB0047A9BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				53351D0D1DF4080D0047A9BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		53351D111DF4080D0047A9BE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53351D121DF4080D0047A9BE /* Base */,
+				53351D231DF41FDB0047A9BE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		53351D241DF41FDB0047A9BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53351D251DF41FDB0047A9BE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,10 +269,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "UICollectionViewCell不销毁/Info.plist";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "/Users/zhudong/Documents/myGit/UICollectionViewCell的重用/UICollectionViewCell的重用/UICollectionViewCell的重用/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.91guoxin.www.UICollectionViewCell---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UICollectionViewCell不销毁-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -275,10 +284,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "UICollectionViewCell不销毁/Info.plist";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "/Users/zhudong/Documents/myGit/UICollectionViewCell的重用/UICollectionViewCell的重用/UICollectionViewCell的重用/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.91guoxin.www.UICollectionViewCell---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UICollectionViewCell不销毁-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -286,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53351D001DF4080D0047A9BE /* Build configuration list for PBXProject "UICollectionViewCell不销毁" */ = {
+		53351D001DF4080D0047A9BE /* Build configuration list for PBXProject "UICollectionViewCell的重用" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53351D151DF4080D0047A9BE /* Debug */,

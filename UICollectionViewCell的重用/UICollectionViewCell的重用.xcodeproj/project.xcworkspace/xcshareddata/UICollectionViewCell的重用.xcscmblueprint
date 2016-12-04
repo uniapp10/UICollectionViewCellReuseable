@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1F6D8B610F80926CD92196B60123D84483D83BD5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F6D8B610F80926CD92196B60123D84483D83BD5" : 9223372036854775807,
+    "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9F682173-FBB1-458E-A311-9A40F0576E31",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F6D8B610F80926CD92196B60123D84483D83BD5" : "UICollectionViewCell%E7%9A%84%E9%87%8D%E7%94%A8\/",
+    "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UICollectionViewCell的重用",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UICollectionViewCell的重用\/UICollectionViewCell的重用.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhudong10\/UICollectionViewCellReuseable.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F6D8B610F80926CD92196B60123D84483D83BD5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhudong10\/ZDZhiBoTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B"
+    }
+  ]
+}
